@@ -10,6 +10,7 @@ class TodoListItem extends StatelessWidget {
 
   final TodoModel todoItem;
   final Function(TodoModel) onDelete;
+ 
 
   @override
   Widget build(BuildContext context) {
